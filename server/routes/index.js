@@ -6,4 +6,10 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/users', (req,res)=>
+{
+  res.json({title:'nearbyyou'})
+})
+
 module.exports = router;
+
