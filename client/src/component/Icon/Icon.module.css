@@ -1,0 +1,22 @@
+.Icon
+{
+    display: inline-block;
+    height: 65px;
+    padding:10px 10px;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+
+
+}
+.Icon span {
+    display: block;
+    color: white;
+}
+
+.Icon a
+{
+    color: white;
+    text-decoration: none;
+}
+

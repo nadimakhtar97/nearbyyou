@@ -1,0 +1,62 @@
+.AddFormFormik {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    padding:50px 0px;
+    margin:100px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    -webkit-box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.38);
+    -moz-box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.38);
+    box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.38);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+.Input {
+
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.Label
+{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.InputElement
+{
+    outline: none;
+    width: 150%;
+    background-color: white;
+    border: 1px solid #ccc;
+    font: inherit;
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    box-sizing: border-box;
+}
+
+.InputElement:focus
+{
+    outline: none;
+    background-color: #ccc;
+}
+
+
+.Invalid{
+    background-color: #fda49a;
+    border: 1px solid red;
+
+}
+
+.Button {
+    margin-top:20px ;
+}
+
