@@ -2,160 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="202c7a74-4768-473f-8db6-46332e968aa7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cssxfire.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.idea/client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/icons/add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/icons/cog.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/icons/doughnut.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/icons/heart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/icons/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/icons/logout.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/icons/map.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/icons/pencil.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/icons/review.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/icons/store.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/icons/store2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/icons/tag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/icons/top.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/image/Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/image/plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/image/price-tag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/image/shop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/image/top-games-star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/axios-backend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/Icon/Icon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/Icon/Icon.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/Toolbar/Toolbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/Toolbar/Toolbar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/UI/404page/page404.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/UI/404page/page404.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/UI/Button/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/UI/Button/Button.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/UI/Input/Input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/UI/Input/Input.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/UI/Spinner/Spinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/UI/Spinner/Spinner.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/container/AddForm/AddForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/container/AddForm/AddForm.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/container/AddForm/AddFormFormik.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/container/AddForm/AddFromFromik.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/hoc/Aux/aux.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/hoc/Layout/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/hoc/Layout/Layout.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/storeController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/userController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/handlers/errorHandlers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/Restaurant.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/Review.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/Store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/Theater.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/icons/add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/icons/cog.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/icons/doughnut.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/icons/heart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/icons/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/icons/logout.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/icons/map.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/icons/pencil.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/icons/review.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/icons/store.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/icons/store2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/icons/tag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/icons/top.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/photos/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/photos/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/photos/11.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/photos/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/photos/13.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/photos/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/photos/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/photos/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/photos/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/photos/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/photos/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/photos/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/images/photos/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/javascripts/delicious-app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/javascripts/modules/autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/javascripts/modules/bling.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/javascripts/modules/heart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/javascripts/modules/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/javascripts/modules/typeAhead.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_credits.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_flashes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_heart.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_helpers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_map.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_normalize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_reviewer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_reviews.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_search.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_single.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_store.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_table.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_tag.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/partials/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/sass/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/0d3624fc-78ee-4297-8d15-e191b9775520.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/1068a0db-ccda-4b92-a8c8-30e127a4e5d1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/1b7870df-e238-4104-be4c-a267bd5f6257.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/2eb3b200-74f5-4f14-8c2c-7b6f55d3f1f1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/3057b89b-92dc-4626-bd4c-3af7a699ce18.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/3e143d06-a3df-4e15-86f6-4efc0a3f5fbc.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/4a5cb791-0140-4fa2-864c-af786640157d.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/6c34119d-b9fd-4051-911e-948a16068229.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/6da53d2e-c0e0-4aef-9ec9-9513b79ece15.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/7628c82c-66df-493c-ba5f-9237c6bc3516.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/7ddb5903-f1e8-486f-b4ba-9a0ff5632429.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/7ea7c02c-9054-442a-9126-788bf3471499.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/9251a9e5-8e7d-45ab-9157-8950107dc94d.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/96a33834-d7aa-4758-b980-fca901ea5956.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/9f2fc898-56b9-47fd-8a78-1d43c1377dc8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/a10ca916-af2a-4a98-96a1-3e320df006f9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/a6b38a1d-38c3-47af-ae4c-0ab26d8edec3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/b5792f01-41c8-41b7-906d-1bdb411e4a55.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/b79b2792-cb22-490e-ab3f-a06ce10f7a9f.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/bb7f7d60-9b0c-46b0-a0e4-1422d5752567.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/c589ef95-b942-4e8a-a63e-cab74c465b9d.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/c9d72871-3bd6-40c0-86c4-d7343fcbce39.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/d61e7b49-41ba-4924-8877-9c117a905ac9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/e30fbc3d-c6c4-45e9-8281-4d1e92768e8f.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/e3c532c9-cb77-4d92-9267-9abedeae2820.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/e710830e-11bf-4593-8a9f-3b6f20abbdb6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/public/uploads/store.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Stores/Store/Store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Stores/Store/Store.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Stores/Stores.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Stores/Stores.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/UI/Flash/Flash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/UI/Flash/Flash.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/container/EditStore/EditStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/container/EditStore/EditStore.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/component/Toolbar/Toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/component/Toolbar/Toolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/container/AddForm/AddFromFromik.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/container/AddForm/AddFromFromik.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/hoc/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hoc/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/storeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/storeController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/start.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/variables.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/variables.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/component/UI/Button" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Learn-Node/stepped-solutions/45 - Finished App" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -231,8 +92,16 @@
       <workItem from="1605906663195" duration="2241000" />
       <workItem from="1606053016530" duration="104000" />
       <workItem from="1606073610516" duration="22346000" />
-      <workItem from="1606209472305" duration="35846000" />
+      <workItem from="1606209472305" duration="55524000" />
     </task>
+    <task id="LOCAL-00001" summary="backend and frontend code.">
+      <created>1606311469282</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606311469282</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,16 +112,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="backend and frontend code." />
+    <option name="LAST_COMMIT_MESSAGE" value="backend and frontend code." />
   </component>
   <component name="WindowStateProjectService">
     <state x="321" y="184" width="717" height="441" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606214080459">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="321" y="184" width="717" height="441" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1606214080459" />
-    <state x="413" y="98" width="530" height="605" key="FileChooserDialogImpl" timestamp="1606053119518">
+    <state x="130" y="27" width="1096" height="741" key="CommitChangelistDialog2" timestamp="1606311468933">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="413" y="98" width="530" height="605" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1606053119518" />
+    <state x="130" y="27" width="1096" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1606311468933" />
+    <state x="413" y="98" width="530" height="605" key="FileChooserDialogImpl" timestamp="1606325313510">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="413" y="98" width="530" height="605" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1606325313509" />
     <state width="1338" height="158" key="GridCell.Tab.0.bottom" timestamp="1603385930763">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -277,6 +152,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="70" y="27" width="1216" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1601143982687" />
+    <state x="178" y="70" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1606311507271">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="178" y="70" width="1000" height="661" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1606311507271" />
     <state x="263" y="170" key="run.anything.popup" timestamp="1603212393550">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

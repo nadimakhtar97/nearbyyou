@@ -11,5 +11,17 @@ exports.createStore = async ( req,res) => {
     const store = new Store(req.body);
     await store.save();
     res.redirect('/');
+}
 
+exports.getStores = async (req,res)=> {
+    const stores = await Store.find();
+    console.log(stores)
+    res.send(stores);
+}
+
+
+exports.editStore = async (req,res) => {
+    const store = await Store.findOne({_id:req.params.id});
+    console.log(store)
+    res.send(store)
 }

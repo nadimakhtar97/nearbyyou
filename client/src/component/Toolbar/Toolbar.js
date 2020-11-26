@@ -12,7 +12,7 @@ const toolbar = () => {
                 <div className={classes.iconContainer}>
 
                     <Link to='/'><Icon iconType="logo" height="120%" title=""/></Link>
-                    <Link to='/'><Icon iconType="shop" height="80%" title="STORES"/></Link>
+                    <Link to='/stores'><Icon iconType="shop" height="80%" title="STORES"/></Link>
                     <Link to='/'><Icon iconType="tag" height="80%" title="TAGS"/></Link>
                     <Link to='/'><Icon iconType="top" height="80%" title="TOP"/></Link>
                     <Link to='/add'><Icon iconType="add" height="80%" title="ADD"/></Link>
