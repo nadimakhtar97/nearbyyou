@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../../assets/image/Logo.png';
-// import logo from '../../assets/icons/logo.svg'
 import shop from '../../assets/icons/store.svg';
 import top from '../../assets/icons/top.svg';
 import add from '../../assets/icons/add.svg';
@@ -38,6 +37,9 @@ const icon = (props) => {
             break;
         case ('register') :
             icon = <a href="">REGISTER</a>
+            break;
+        case ('forgot') :
+            icon = <a href="">FORGOT PASSWORD</a>
             break;
 
     }

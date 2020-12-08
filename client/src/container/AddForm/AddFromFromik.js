@@ -1,6 +1,7 @@
 import {Field, Form, Formik} from "formik";
 import React from 'react';
 import axios from "../../axios-backend";
+import Autocomplete from "../Autocomplete/Autocomplete"
 import classes from './AddFormFormik.module.css';
 import Aux from '../../hoc/Aux/aux';
 import {withRouter} from "react-router-dom";
@@ -8,23 +9,25 @@ import {withRouter} from "react-router-dom";
 const addFormFormik = (props) => {
 
     const onSubmitHandler = (storeData) => {
-        const store = {
-            name: storeData.name,
-            description: storeData.description,
-            tags: [...storeData.tags]
-        }
 
-        console.log('this is onsubmit')
-        console.log(store);
-
-        axios.post('/add', store).then((res) => {
-            console.log("post res successful");
-            // console.log(res)
-            // this.props.history.push('/');
-        })
-            .catch((err) => {
-                console.log(err)
-            });
+        console.log(storeData);
+        // const store = {
+        //     name: storeData.name,
+        //     description: storeData.description,
+        //     tags: [...storeData.tags],
+        //     location: {
+        //         address: storeData.location.address,
+        //         coordinates: [...storeData.location.coordinates]
+        //     }
+        // }
+        //
+        // axios.post(`/add/${props.match.params.storeId || ''}`, store).then((res) => {
+        //     console.log("post res successful");
+        //
+        // })
+        //     .catch((err) => {
+        //         console.log(err)
+        //     });
     }
 
     return (
@@ -35,7 +38,11 @@ const addFormFormik = (props) => {
                     {
                         name: '',
                         description: '',
-                        tags: []
+                        tags: [],
+                        location:{
+                            address:"",
+                            coordinates:['','']
+                        }
                     }
 
                 } onSubmit={(storeData) => {
@@ -52,6 +59,24 @@ const addFormFormik = (props) => {
                                 <div>
                                     <label htmlFor="description" className={classes.Label}>Description</label>
                                     <Field type='textarea' name='description' className={classes.InputElement} />
+                                </div>
+
+                                {/*<Autocomplete/>*/}
+
+                                <div>
+                                    <label htmlFor="address" className={classes.Label}>Address</label>
+                                    <Field type='text' name='location[address]' className={classes.InputElement} />
+                                </div>
+
+
+                                <div>
+                                    <label htmlFor="latitude" className={classes.Label}>Latitude</label>
+                                    <Field type='text' name='location[coordinates][0]' className={classes.InputElement} />
+                                </div>
+
+                                <div>
+                                    <label htmlFor="latitude" className={classes.Label}>Latitude</label>
+                                    <Field type='text' name='location[coordinates][1]' className={classes.InputElement} />
                                 </div>
 
                                 <div id="checkbox-group">TAGS</div>

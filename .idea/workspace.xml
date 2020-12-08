@@ -2,21 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="202c7a74-4768-473f-8db6-46332e968aa7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/component/Stores/Store/Store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/Stores/Store/Store.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/Stores/Stores.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/Stores/Stores.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/UI/Flash/Flash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/component/UI/Flash/Flash.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/container/EditStore/EditStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/container/EditStore/EditStore.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Formik/ChakraInput/ChakraInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Formik/ChakraTextarea/ChakraTextarea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Formik/CheckboxGroup/CheckboxGroup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Formik/DatePicker/DatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Formik/Formik.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Formik/FormikContainer/FormikContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Formik/FormikControl/FormikControl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Formik/Input/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Formik/RadioButtons/RadioButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Formik/Select/Select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Formik/TextError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Formik/Textarea/Textarea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Forms/AddForm/AddForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Forms/EditStoreForm/EditStoreForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Forms/ForgotForm/ForgotForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Forms/LoginForm/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Forms/RegisterForm/RegisterForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Forms/ResetPasswordForm/ResetPasswordForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Map/Map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Map/MapWrapped.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Map/mapStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/StoreDetails/StoreDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/component/Tags/Tags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/container/Autocomplete/Autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/container/Autocomplete/Autocomplete2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/container/LoginForm/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/controllers/authController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/handlers/passport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/component/Icon/Icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/component/Icon/Icon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/component/Stores/Store/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/component/Stores/Store/Store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/component/Stores/Stores.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/component/Stores/Stores.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/component/Toolbar/Toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/component/Toolbar/Toolbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/container/AddForm/AddFromFromik.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/container/AddForm/AddFromFromik.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/hoc/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hoc/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/container/EditStore/EditStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/container/EditStore/EditStore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/controllers/storeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/storeController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/Theater.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/component/Formik/ChakraCheckbox/ChakraCheckbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/photos/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/photos/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/photos/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/photos/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/photos/11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/photos/11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/photos/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/photos/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/photos/13.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/photos/13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/photos/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/photos/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/photos/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/component/Stores/Store/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/photos/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/photos/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/photos/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/photos/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/photos/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/photos/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/photos/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/photos/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/photos/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/photos/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/photos/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/photos/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/start.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/variables.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/variables.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +99,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Learn-Node/stepped-solutions/45 - Finished App" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,20 +110,22 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="kite.configurable" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src" />
       <recent name="$PROJECT_DIR$/client/src/component/UI/Button" />
       <recent name="$PROJECT_DIR$/server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/src/container" />
-      <recent name="$PROJECT_DIR$/client/src/hoc" />
+      <recent name="$PROJECT_DIR$/client/src/component/Stores/Store" />
+      <recent name="$PROJECT_DIR$/client/src/component/Forms" />
+      <recent name="$PROJECT_DIR$/client/src/component/Formik" />
       <recent name="$PROJECT_DIR$/client/src/assets" />
-      <recent name="$PROJECT_DIR$/client/src/assets/icons" />
+      <recent name="$PROJECT_DIR$/client/src/container" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -92,7 +146,21 @@
       <workItem from="1605906663195" duration="2241000" />
       <workItem from="1606053016530" duration="104000" />
       <workItem from="1606073610516" duration="22346000" />
-      <workItem from="1606209472305" duration="55524000" />
+      <workItem from="1606209472305" duration="66120000" />
+      <workItem from="1606412917291" duration="599000" />
+      <workItem from="1606420038986" duration="24379000" />
+      <workItem from="1606679311963" duration="59000" />
+      <workItem from="1606679404878" duration="6191000" />
+      <workItem from="1606761795825" duration="2012000" />
+      <workItem from="1606764082017" duration="653000" />
+      <workItem from="1606817333679" duration="757000" />
+      <workItem from="1606841785373" duration="19732000" />
+      <workItem from="1606918513032" duration="28630000" />
+      <workItem from="1607002000954" duration="55619000" />
+      <workItem from="1607117892391" duration="1690000" />
+      <workItem from="1607160594492" duration="12936000" />
+      <workItem from="1607200500314" duration="3043000" />
+      <workItem from="1607378839032" duration="111000" />
     </task>
     <task id="LOCAL-00001" summary="backend and frontend code.">
       <created>1606311469282</created>
@@ -101,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606311469282</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Edit store component">
+      <created>1606385524268</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606385524268</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,21 +188,26 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="backend and frontend code." />
-    <option name="LAST_COMMIT_MESSAGE" value="backend and frontend code." />
+    <MESSAGE value="Edit store component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit store component" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="321" y="184" width="717" height="441" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606214080459">
+    <state x="321" y="184" width="756" height="441" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607165403268">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="321" y="184" width="717" height="441" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1606214080459" />
-    <state x="130" y="27" width="1096" height="741" key="CommitChangelistDialog2" timestamp="1606311468933">
+    <state x="321" y="184" width="756" height="441" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1607165403268" />
+    <state x="363" y="124" width="630" height="553" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606679349869">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="130" y="27" width="1096" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1606311468933" />
-    <state x="413" y="98" width="530" height="605" key="FileChooserDialogImpl" timestamp="1606325313510">
+    <state x="363" y="124" width="630" height="553" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1366.741@0.27.1366.741" timestamp="1606679349869" />
+    <state x="130" y="27" width="1096" height="741" key="CommitChangelistDialog2" timestamp="1606385524053">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="413" y="98" width="530" height="605" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1606325313509" />
+    <state x="130" y="27" width="1096" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1606385524053" />
+    <state x="413" y="98" width="530" height="605" key="FileChooserDialogImpl" timestamp="1607378948878">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="413" y="98" width="530" height="605" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1607378948878" />
     <state width="1338" height="158" key="GridCell.Tab.0.bottom" timestamp="1603385930763">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -148,21 +228,36 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="163" y="73" width="1030" height="656" key="IDE.errors.dialog/0.27.1366.741@0.27.1366.741" timestamp="1606075622324" />
-    <state x="70" y="27" width="1216" height="741" key="SettingsEditor" timestamp="1601143982687">
+    <state x="70" y="27" width="1216" height="741" key="SettingsEditor" timestamp="1606932589160">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="70" y="27" width="1216" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1601143982687" />
-    <state x="178" y="70" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1606311507271">
+    <state x="70" y="27" width="1216" height="741" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1606932589160" />
+    <state x="178" y="70" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1606385551179">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="178" y="70" width="1000" height="661" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1606311507271" />
+    <state x="178" y="70" width="1000" height="661" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1606385551179" />
+    <state x="303" y="80" width="759" height="634" key="find.popup" timestamp="1607175176744">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="303" y="80" width="759" height="634" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1607175176744" />
     <state x="263" y="170" key="run.anything.popup" timestamp="1603212393550">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="263" y="170" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1603212393550" />
-    <state x="262" y="27" width="840" height="1034" key="search.everywhere.popup" timestamp="1606242900682">
+    <state x="262" y="27" width="840" height="1034" key="search.everywhere.popup" timestamp="1607110386681">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="262" y="27" width="840" height="1034" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1606242900682" />
+    <state x="262" y="27" width="840" height="1034" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1607110386681" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/node_modules/framer-motion/types/render/VisualElement/utils/setters.d.ts</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

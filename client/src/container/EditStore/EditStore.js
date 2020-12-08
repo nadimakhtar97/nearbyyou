@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import AddFromFormik from "../AddForm/AddFromFromik";
 import axios from '../../axios-backend';
+import EditStoreForm from '../../component/Forms/EditStoreForm/EditStoreForm'
 
 
 /* see Node 14*/
@@ -14,15 +15,14 @@ class editStore extends Component {
     }
 
     componentDidMount() {
-        axios.get("/stores/5fbd475e2faaa8bf34b58ab4/edit").then(res => {
-            console.log(res);
+        axios.get(this.props.match.url).then(res => {
         })
     }
 
     render()
     {
         return (
-            <AddFromFormik title={"Edit Store"}/>
+            <EditStoreForm/>
         );
     }
 }
