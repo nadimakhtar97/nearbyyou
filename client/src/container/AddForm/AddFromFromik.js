@@ -3,7 +3,6 @@ import React from 'react';
 import axios from "../../axios-backend";
 import Autocomplete from "../Autocomplete/Autocomplete"
 import classes from './AddFormFormik.module.css';
-import Aux from '../../hoc/Aux/aux';
 import {withRouter} from "react-router-dom";
 
 const addFormFormik = (props) => {
@@ -31,7 +30,7 @@ const addFormFormik = (props) => {
     }
 
     return (
-        <Aux>
+        <>
             <div className={classes.AddFormFormik}>
                 <h1>{props.title}</h1>
                 <Formik initialValues={
@@ -101,7 +100,7 @@ const addFormFormik = (props) => {
                 </Formik>
             </div>
 
-        </Aux>
+        </>
 
     )
 

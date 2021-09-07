@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import axios from '../../axios-backend';
 import {Link} from 'react-router-dom';
-import Aux from '../../hoc/Aux/aux'
 
 class StoreDetails extends Component {
 
@@ -46,7 +45,7 @@ class StoreDetails extends Component {
 
 
         return (
-            <Aux>
+            <>
                 <div className="single">
                     <div className="single__hero">
                         <img src="../../assets/photos/1.jpg" alt="" className="single__image"/>
@@ -61,7 +60,7 @@ class StoreDetails extends Component {
                 </div>
 
 
-            </Aux>
+            </>
 
         );
     }

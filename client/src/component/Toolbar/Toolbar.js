@@ -1,12 +1,11 @@
 import React from 'react';
-import Aux from '../../hoc/Aux/aux';
 import Icon from '../Icon/Icon';
 import classes from './Toolbar.module.css';
 import {Link} from "react-router-dom";
 
 const toolbar = () => {
     return (
-        <Aux>
+        <>
             <div className={classes.rainbow}/>
             <div className={classes.Toolbar}>
                 <div className={classes.iconContainer}>
@@ -25,7 +24,7 @@ const toolbar = () => {
             </div>
 
 
-        </Aux>
+        </>
 
     );
 };

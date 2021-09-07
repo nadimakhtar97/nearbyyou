@@ -6,7 +6,7 @@ import add from '../../assets/icons/add.svg';
 import tag from '../../assets/icons/tag.svg';
 import map from '../../assets/icons/map.svg'
 import classes from './Icon.module.css';
-import Aux from '../../hoc/Aux/aux'
+
 
 const icon = (props) => {
 
